@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Nomadic Travel + Tours</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="menu-bar" class="fa fa-bars"></div>
+
+        <a class="logo" href="#home"><span>Nomadic</span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search here">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+    </header>
+
+    <!-- Login -->
+    <div class="login-form-container">
+        <i class="fa fa-times" id="form-close"></i>
+        <form action="">
+            <h3>Please Login</h3>
+            <input type="email" class="box" placeholder="Email Address" required>
+            <input type="password" class="box" placeholder="Password" required>
+            <input type="submit" value="Login" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+            <p>Forgot password? <a href="">Click here</a></p>
+            <p>No account? <a href="">Join Us!</a></p>
+        </form>
+    </div>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Adventure awaits</h3>
+            <p>Take the next step!</p>
+            <a href="#book" class="btn">Go!</a>
+        </div>
+
+        <div class="controls">
+            <span class="img-btn active" data-src="/assets/background.webp"></span>
+            <span class="img-btn" data-src="/assets/background1.webp"></span>
+            <span class="img-btn" data-src="/assets/background2.webp"></span>
+            <span class="img-btn" data-src="/assets/background3.webp"></span>
+            <span class="img-btn" data-src="/assets/background4.webp"></span>
+        </div>
+
+        <div class="img-container">
+            <img src="/assets/background.webp" id="img-slider" alt="image-slider"></img>
+
+        </div>
+
+    </section>
+
+    <!-- Book -->
+    <section class="book" id="book">
+        <h1 class="heading"><span>Book now!</span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="/assets/travelers.svg" alt="travelers-image">
+            </div>
+            <form action="" id="travel-details">
+                <div class="inputBox">
+                    <h3>Where to?</h3>
+                    <input type="text" placeholder="Destination">
+                </div>
+                <div class="inputBox">
+                    <h3>How many?</h3>
+                    <input type="number" min="1" max="15" placeholder="Number of Guests">
+                </div>
+                <div class="inputBox">
+                    <h3>Departure date</h3>
+                    <input type="date" name="setTodaysDate">
+                </div>
+                <div class="inputBox">
+                    <h3>Return date</h3>
+                    <input type="date" name="setTodaysDate">
+                </div>
+                <input type="submit" class="btn" value="Reserve">
+            </form>
+        </div> 
+    </section>
+
+    <!-- Packages -->
+    <section class="packages" id="packages">
+        <h1 class="heading"><span>Featured Packages</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="/assets/thailand.webp" alt="thailand">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Thailand</h3>
+                    <p>Beautiful beaches. Guaranteed.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $349 <span>$499</span></div>
+                    <a href="#travel-details" class="btn">Book!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/assets/australia.webp" alt="australia">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Australia</h3>
+                    <p>Go to the Down Under.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $599 <span>$699</span></div>
+                    <a href="#travel-details" class="btn">Book!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/assets/paris.webp" alt="paris">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Paris</h3>
+                    <p>Viva la France - Bon Voyage!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="price"> $499 <span>$699</span></div>
+                    <a href="#travel-details" class="btn">Book!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/assets/iceland.webp" alt="iceland">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Iceland</h3>
+                    <p>The perfect choice for the Adventurer.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $649 <span>$799</span></div>
+                    <a href="#travel-details" class="btn">Book!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/assets/monaco.webp" alt="monaco">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Monaco</h3>
+                    <p>Dive into the high roller lifestyle.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $749 <span>$999</span></div>
+                    <a href="#travel-details" class="btn">Book!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/assets/hawaii.webp" alt="hawaii">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Hawaii</h3>
+                    <p>Feel the Aloha spirit. Mahalo!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $599 <span>$899</span></div>
+                    <a href="#travel-details" class="btn">Book!</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading"><span>Gallery</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="/assets/g1.webp" alt="gallery-image1">
+                <div class="content">
+                    <h3>Go Beyond</h3>
+                    <p>You deserve this.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/assets/g2.webp" alt="gallery-image2">
+                <div class="content">
+                    <h3>Go Beyond</h3>
+                    <p>Explore something new.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/assets/g3.webp" alt="gallery-image3">
+                <div class="content">
+                    <h3>Go Beyond</h3>
+                    <p>Lift off!</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/assets/g4.webp" alt="gallery-image4">
+                <div class="content">
+                    <h3>Go Beyond</h3>
+                    <p>Experience the finer things in life.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/assets/g5.webp" alt="gallery-image5">
+                <div class="content">
+                    <h3>Go Beyond</h3>
+                    <p>Dream BIG!</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/assets/g6.webp" alt="gallery-image6">
+                <div class="content">
+                    <h3>Go Beyond</h3>
+                    <p>Discover new horizons.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/assets/g7.webp" alt="gallery-image7">
+                <div class="content">
+                    <h3>Go Beyond</h3>
+                    <p>You are worth it.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/assets/g8.webp" alt="gallery-image8">
+                <div class="content">
+                    <h3>Go Beyond</h3>
+                    <p>Life is short. Don't wait.</p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Review -->
+    <section class="review" id="review">
+        <h1 class="heading"><span>Reviews</span></h1>
+
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://randomuser.me/api/portraits/men/57.jpg" alt="user1">
+                        <h3>Steve H.</h3>
+                        <p>I had a wonderful time! No complaints!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="user2">
+                        <h3>Lara C.</h3>
+                        <p>Fantastic service - exactly what I wanted.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="user3">
+                        <h3>Alex G.</h3>
+                        <p>Simply the best. Better than all the rest!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="user4">
+                        <h3>Julie T.</h3>
+                        <p>110% recommended! Thanks so much!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="user5">
+                        <h3>Megan S.</h3>
+                        <p>I had so much fun! Can't wait for my next adventure!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="user6">
+                        <h3>Alice C.</h3>
+                        <p>Great value and customer support. Thank you.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span></h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="/assets/contact.svg" alt="contact-image">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Subject" required>
+                    <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number">                    
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+                <input type="submit" class="btn" value="Send Message" required>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="box-container">
+            
+            <div class="box">
+                <h3>About Us</h3>
+                <p>We are committed to offering travel services of the highest quality. Our greatest pride comes in serving satisfied clients who experience the joys of travel.</p>
+            </div>
+
+            <div class="box">
+                <h3>Office Locations</h3>
+                <a href="#">New York</a>
+                <a href="#">London</a>
+                <a href="#">Tokyo</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#packages">Packages</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#review">Reviews</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script defer src="script.js"></script>
+</body>
+</html>
