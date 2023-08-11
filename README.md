@@ -53,6 +53,4 @@ npm run build
 
 ## Demo
 
-Please visit (in a new tab): https://nomadic-travel.vercel.app/
-
 ![](/assets/screenshot.webp)
