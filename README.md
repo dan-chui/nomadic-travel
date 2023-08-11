@@ -3,7 +3,6 @@
 ## 💻 Project
 Mobile responsive landing page Website for a travel company, **Nomadic Travel + Tours**.
 
-Please visit (in a new tab): https://nomadic-travel.vercel.app/
 
 ## 🚀 Technologies
 
