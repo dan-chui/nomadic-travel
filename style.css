@@ -15,6 +15,12 @@
   transition: all 0.2s linear;
 }
 
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
 body {
   height: 300rem;
 }
