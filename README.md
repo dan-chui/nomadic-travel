@@ -1,7 +1,7 @@
 # Nomadic Travel + Tours
 
 ## 💻 Project
-Mobile responsive landing page Website for a travel tour company, **Nomadic Travel + Tours**.
+Mobile responsive landing page Website for a travel company, **Nomadic Travel + Tours**.
 
 
 ## 🚀 Technologies
