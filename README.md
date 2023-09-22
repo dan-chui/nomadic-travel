@@ -53,4 +53,12 @@ npm run build
 
 ## Demo
 
-![](/assets/screenshot.webp)
+![](/assets/screenshot1.webp)
+
+![](/assets/screenshot2.webp)
+
+![](/assets/screenshot3.webp)
+
+![](/assets/screenshot4.webp)
+
+![](/assets/screenshot5.webp)
