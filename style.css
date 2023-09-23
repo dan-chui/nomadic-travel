@@ -73,6 +73,7 @@ section {
 /* Header */
 header {
   position: fixed;
+  height: 8rem;
   top: 0;
   left: 0;
   right: 0;
@@ -89,6 +90,7 @@ header .logo span {
   font-size: 2rem;
   color: #fff;
   text-transform: uppercase;
+  margin-left: 5rem;
 }
 
 header .logo span:hover {
@@ -97,7 +99,7 @@ header .logo span:hover {
 
 header .navbar a {
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 0.8rem;
 }
 
@@ -665,3 +667,34 @@ header .search-bar-container label:hover {
     width: 100%;
   }
 } */
+
+@media (max-width: 280px) {
+  header .logo span {
+    font-family: "Yellowtail", cursive;
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 0.5rem;
+  }
+
+  header .icons i {
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .wrapper,
+  .header-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 3200px;
+    padding: 0;
+    object-fit: contain;
+  }
+  .header-wrapper .icons {
+    margin-right: 5rem;
+  }
+}
