@@ -19,6 +19,18 @@ Mobile responsive landing page Website for a travel company, **Nomadic Travel + 
 
 ---
 
+## Demo
+
+![](/assets/screenshot1.webp)
+
+![](/assets/screenshot2.webp)
+
+![](/assets/screenshot3.webp)
+
+![](/assets/screenshot4.webp)
+
+![](/assets/screenshot5.webp)
+
 ## 🌎 Getting Started
 
 ### Installation
@@ -51,14 +63,4 @@ npm run dev
 npm run build
 ```
 
-## Demo
 
-![](/assets/screenshot1.webp)
-
-![](/assets/screenshot2.webp)
-
-![](/assets/screenshot3.webp)
-
-![](/assets/screenshot4.webp)
-
-![](/assets/screenshot5.webp)
