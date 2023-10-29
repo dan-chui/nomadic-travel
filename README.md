@@ -6,7 +6,7 @@ Mobile responsive landing page Website for a travel company, **Nomadic Travel + 
 
 ## 🚀 Technologies
 
-- JavaScript (ES6+)
+- JavaScript
 - HTML
 - CSS
 - Vercel
