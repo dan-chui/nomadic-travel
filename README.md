@@ -15,6 +15,8 @@ Mobile responsive landing page Website for a travel company, **Nomadic Travel + 
 
 - **UI/UX**: Clean User interface and easy to use.
 
+- **Login/Search**: Modals for Login and Search.
+
 - **Responsive**: Accessible via PC (including extra-wide screens), tablet, and mobile phone.
 
 ---
